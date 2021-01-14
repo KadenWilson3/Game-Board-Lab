@@ -1,0 +1,43 @@
+h1 {
+    padding: 3em;
+    text-align: center;
+}
+
+div > .top-left, .top-center, .top-right, .center-left, .center, .center-right, .bottom-left, .bottom-center, .bottom-right {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+.row {
+    clear: both;
+    margin: 0 auto;
+    width: 302px;
+    cursor: pointer;
+}
+
+.top-left, .center-left {
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
+}
+
+.top-right, .center-right {
+    border-bottom: 1px black solid;
+    border-left: 1px black solid;
+}
+
+.bottom-left {
+    border-right:1px black solid;
+}
+
+.bottom-right {
+    border-left: 1px black solid;
+}
+
+.top-center {
+    border-bottom: 1px black solid;
+}
+
+.center {
+    border-bottom: 1px black solid;
+}
+
